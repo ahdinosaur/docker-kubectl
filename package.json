@@ -1,0 +1,13 @@
+{
+  "name": "docker-gcloud-sdk",
+  "version": "1.0.0",
+  "description": "docker image for alpine with the gcloud sdk",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t ahdinosaur/kubectl .",
+    "example": "docker run -i ahdinosaur/kubectl help",
+    "push": "docker push ahdinosaur/kubectl"
+  },
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "ISC"
+}
